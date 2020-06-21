@@ -1,0 +1,7 @@
+bag:
+   #初始格子是3个
+   initLine: 1
+   maxLine: 6
+   lineSquareNum: 9
+   #每个格子扩容的价格
+   unitPrice: 600

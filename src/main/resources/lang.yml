@@ -1,0 +1,29 @@
+PLUGIN_TITLE: '背包插件'
+#无权限提醒
+COMMAND_PERMISSIONDENIEDMESSAGE: '&4你没有使用 /{0} 命令的权限'
+#不属于命令执行范围，如玩家无法执行控制台命令，控制台无法执行玩家的命令
+COMMAND_NOCOMMANDSENDERTYPEMESSAGE: '&4你使用的终端无法使用该命令'
+#参数列表不正确
+COMMAND_ARGS_ERROR: '&4参数列表不正确'
+#命令未找到
+COMMAND_NOT_FOUND_COMMAND: '&4命令不存在'
+
+#------文本配置-----
+TEXT_BOX_TITME: '背包'
+
+#------命令描述的语言配置------
+
+#帮助命令
+COMMAND_USEAGE_OPEN: '&7/bag &b[open]  &2| 打开背包'
+COMMAND_USEAGE_HELP: '&7/bag &bhelp  &2| 显示帮助'
+COMMAND_USEAGE_INFO: '&7/bag &binfo  &2| 显示背包信息'
+COMMAND_USEAGE_PAY: '&7/bag &bpay [1]  &2| 扩容背包，需要扩容几次，如：/bag pay 2 就是扩容2次'
+
+#------消息配置-----
+MESSAGE_BAG_INFO: '&a当前背包等级&6{0}&a，还可扩容&6{1}&a次，每级扩容须花费&6{2}。'
+
+MESSAGE_BAG_PAY_OUT_OF_LEVEL: '&c扩容失败：&a当前背包等级&6{0}&a，您最多还可扩容&6{1}&a次。'
+MESSAGE_BAG_PAY_OUT_OF_MONEY: '&c扩容失败：&a扩容&6{0}&a次需要花费&6{1}&a，您的余额不足，当前余额：&6{2}。'
+MESSAGE_BAG_PAY_SUCCESS: '&a扩容成功，请使用：&f/bag &a或 &f/bag open &a打开背包查看'
+MESSAGE_BAG_PAY_FORMAGE_LINENUM_ERROR: '&c扩容失败：&a您输入的扩容次数不是数字，请正确输入。'
+MESSAGE_BAG_PAY_FAIL: '&c扩容失败：&a支付失败。'

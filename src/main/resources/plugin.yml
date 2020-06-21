@@ -1,0 +1,14 @@
+name: Bag
+authors: [MountCloud]
+website: http://www.mountcloud.org
+description: Bag is a plugin for the expand player backpack.
+
+#使用mc-plugin-common必须设置依赖关系为 [McPluginCommon]，use mc-plugin-common must set the dependency [McPluginCommon]
+depend: [McPluginCommon]
+
+main: org.mountcloud.mcplugin.bag.BagPluginMain
+version: 1.0
+commands:
+ bag:
+  description: bag
+  usage: /bag
